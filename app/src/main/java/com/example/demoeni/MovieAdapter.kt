@@ -7,9 +7,6 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.TextView
 
-class Movie(var id: Int = -1, var title: String = "") {
-}
-
 class MovieAdapter(context: Context, movies: List<Movie>) :
     ArrayAdapter<Movie>(context, 0, movies) {
 
