@@ -17,7 +17,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".api.DemoAPIActivity"
+            android:name=".api.DemoApiListViewActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,12 +26,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DemoListViewActivity"
+            android:name=".api.DemoAPIActivity"
             android:exported="true">
         </activity>
         <activity
-            android:name=".DemoM08VMActivity"
+            android:name=".DemoListViewActivity"
             android:exported="true"></activity>
+        <activity
+            android:name=".DemoM08VMActivity"
+            android:exported="true" />
         <activity
             android:name=".DemoM07Activity"
             android:exported="true" />
