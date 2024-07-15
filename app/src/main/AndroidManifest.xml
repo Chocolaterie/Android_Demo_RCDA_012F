@@ -17,8 +17,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".api.DemoApiListViewActivity"
-            android:exported="true" >
+            android:name=".compose.DemoComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_demo_compose"
+            android:theme="@style/Theme.DemoEni">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,12 +28,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".api.DemoAPIActivity"
+            android:name=".api.DemoApiListViewActivity"
             android:exported="true">
         </activity>
         <activity
-            android:name=".DemoListViewActivity"
+            android:name=".api.DemoAPIActivity"
             android:exported="true"></activity>
+        <activity
+            android:name=".DemoListViewActivity"
+            android:exported="true" />
         <activity
             android:name=".DemoM08VMActivity"
             android:exported="true" />
