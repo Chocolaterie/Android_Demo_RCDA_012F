@@ -17,6 +17,18 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".compose.DemoListComposeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".compose.DemoCounterComposeActivity"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".compose.DemoComposeActivity"
             android:exported="true"
             android:label="@string/title_activity_demo_compose"
@@ -29,8 +41,7 @@
         </activity>
         <activity
             android:name=".api.DemoApiListViewActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".api.DemoAPIActivity"
             android:exported="true"></activity>

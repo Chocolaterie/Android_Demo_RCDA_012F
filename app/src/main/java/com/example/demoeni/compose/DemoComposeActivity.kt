@@ -21,7 +21,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.demoeni.compose.ui.theme.DemoEniTheme
+import com.example.demoeni.ui.theme.DemoEniTheme
 
 class DemoComposeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
